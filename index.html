@@ -114,7 +114,7 @@
     const jsEditor = document.querySelector(".editor .code .js-code")
     document.querySelector("#run-btn").addEventListener("click", function () {
       let htmlCode = htmlEditor.value;
-      let cssCode = "<styl" + "e>" + cssEditor.value + "</styl" + "e>";
+      let cssCode = "<style>" + cssEditor.value + "</style>";
       let jsCode ="<scri" + "pt>" + jsEditor.value + "</scri" + "pt>";
       let view = document.querySelector("#view").contentWindow.document;
       view.open();
