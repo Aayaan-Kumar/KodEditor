@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Kod Editor</title>
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/logo.ico">
   <style>
     body {
       margin: 0px;
@@ -114,7 +114,7 @@
     const jsEditor = document.querySelector(".editor .code .js-code")
     document.querySelector("#run-btn").addEventListener("click", function () {
       let htmlCode = htmlEditor.value;
-      let cssCode = "<style>" + cssEditor.value + "</style>";
+      let cssCode = "<styl" + "e>" + cssEditor.value + "</styl" + "e>";
       let jsCode ="<scri" + "pt>" + jsEditor.value + "</scri" + "pt>";
       let view = document.querySelector("#view").contentWindow.document;
       view.open();
